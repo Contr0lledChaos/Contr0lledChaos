@@ -1,40 +1,41 @@
-From: <Saved by Blink>
-Snapshot-Content-Location: http://127.0.0.1:5500/Project-Template-C9--main/
-Subject: 
-Date: Fri, 14 Jan 2022 00:17:48 -0000
-MIME-Version: 1.0
-Content-Type: multipart/related;
-	type="text/html";
-	boundary="----MultipartBoundary--Z07TpsgES1G2jDJLUfDo3t19f2AoXsUlwWgyB0ryKo----"
+
+function setup() {
+  createCanvas(400,400);
+  background(51);
+  box = createSprite(200,200,30,30);
+
+}
+
+function draw() 
+{
 
 
-------MultipartBoundary--Z07TpsgES1G2jDJLUfDo3t19f2AoXsUlwWgyB0ryKo----
-Content-Type: text/html
-Content-ID: <frame-158EF063A980F5F0D9A622F10472B2CE@mhtml.blink>
-Content-Transfer-Encoding: quoted-printable
-Content-Location: http://127.0.0.1:5500/Project-Template-C9--main/
+  
+  
 
-<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
-t/html; charset=3DUTF-8">
-  <link rel=3D"stylesheet" type=3D"text/css" href=3D"http://127.0.0.1:5500/=
-Project-Template-C9--main/style.css">
- =20
- =20
- =20
-</head>
+  if (keyIsDown(LEFT_ARROW)) 
+  {
+    background("blue");
+    
+  }
+ 
+    if (keyIsDown(UP_ARROW)) 
+  {
+    background("yellow");
+   
+  }
 
-<body>
- =20
+  if (keyIsDown(DOWN_ARROW)) 
+  {
+    background("green");
+  }
 
-<!-- Code injected by live-server -->
-<canvas id=3D"defaultCanvas0" class=3D"p5Canvas" width=3D"400" height=3D"40=
-0" style=3D"width: 400px; height: 400px;"></canvas></body></html>
-------MultipartBoundary--Z07TpsgES1G2jDJLUfDo3t19f2AoXsUlwWgyB0ryKo----
-Content-Type: text/css
-Content-Transfer-Encoding: quoted-printable
-Content-Location: http://127.0.0.1:5500/Project-Template-C9--main/style.css
+  if (keyIsDown(RIGHT_ARROW))
+  {
+    background("red");
+  }
 
-@charset "utf-8";
+  
+  drawSprites();
+}
 
-html, body { margin: 0px; padding: 0px; }
-------MultipartBoundary--Z07TpsgES1G2jDJLUfDo3t19f2AoXsUlwWgyB0ryKo------
