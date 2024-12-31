@@ -1,5 +1,4 @@
 - 👋 Hi, I’m @Contr0lledChaos
-- 👀 I like all forms of art-music, martial arts, fashion, painting, you name it!
 - 🌱 I’m currently learning how to code
 
 
